@@ -18,7 +18,7 @@ public class Application {
 
         /*эти пользователи регистрируются в момент работы программы*/
         users.add(new User("Alexander", "Ivanov", 21, Status.ACTIVE, "ardabada@mail.ru", new Timestamp(System.currentTimeMillis())));
-        users.add(new User("Victoria", "Rascovan", 25, Status.NEW, "vika1995@yahoo.ru", new Timestamp(System.currentTimeMillis())));
+        users.add(new User("Victoria", "Rascovan", 25, Status.INACTIVE, "vika1995@yahoo.ru", new Timestamp(System.currentTimeMillis())));
         users.add(new User("Alexei", "Babin", 35, Status.NEW, "alexbabins@gmail.com", new Timestamp(System.currentTimeMillis())));
 
 
